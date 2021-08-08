@@ -13,6 +13,9 @@ $family-secondary: "Montserrat", sans-serif;
 $family-primary: "Roboto Condensed", sans-serif;
 $navbar-item-img-max-height: 3.5rem;
 
+.img-max-height {
+    max-height: 500px;
+};
 
 @import "~bulma/bulma.sass";
 @import "~slick-carousel/slick/slick.css"; 

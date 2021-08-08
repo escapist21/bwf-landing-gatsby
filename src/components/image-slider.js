@@ -12,20 +12,23 @@ export default class SimpleItems extends Component {
       autoplaySpeed: 2000,
       slidesToShow: 1,
       slidesToScroll: 1,
-      adaptiveHeight: true,
+      adaptiveHeight: false,
       adptiveWidth:true
     };
     return (
       <div>
         <Slider {...settings}>
-          <div>
-            <StaticImage src="../assets/slide1a.jpg" alt="" />
+          <div className="img-max-height">
+            <StaticImage src="../assets/slide1a.jpg" alt="" placeholder="blurred"
+              style={{maxHeight:500}}/>
           </div>
           <div>
-            <StaticImage src="../assets/slide2a.jpg" alt="" />
+            <StaticImage src="../assets/slide2a.jpg" alt="" 
+            style={{maxHeight:500}}/>
           </div>
           <div>
-            <StaticImage src="../assets/slide3a.jpg" alt="" />
+            <StaticImage src="../assets/slide3a.jpg" alt="" 
+            style={{maxHeight:500}}/>
           </div>
         </Slider>
       </div>
