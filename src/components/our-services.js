@@ -9,11 +9,11 @@ const OurServices = () => {
                     OUR SERVICES
                 </p>
             </div>
-            <nav className="level">
+            <nav className="level is-mobile">
                 <div className="level-item has-text-centered">
                     <figure className="image is-128x128">
                         <StaticImage src="../assets/BWF_icons_project_management.png" alt="" />
-                        <p className="title is-size-5 is-uppercase has-text-weight-light">Advisory & Project Management</p>
+                        <p className="title is-size-5 is-uppercase has-text-weight-light mb-5">Advisory & Project Management</p>
                     </figure>
                 </div>
                 <div className="level-item has-text-centered">
