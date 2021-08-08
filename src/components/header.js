@@ -3,17 +3,26 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 const Header = () => {
+  const [isActive, setisActive] = React.useState(false);
     return(
         <div>
             <nav className='navbar' role='navigation' aria-label='main-navigation'>
         <div className='container'>
           <div className='navbar-brand'>
             <a className='navbar-item' href='/'>
-              <StaticImage src="../assets/BWF_logo_Logo.png" width={240}/>
+              <StaticImage src="../assets/BWF_logo_Logo.png" />
             </a>
           </div>
-          {/* <!--The Hamburger will go here --> */}
-          <div className='navbar-menu'>
+          <a 
+            onClick={() => {
+              setisActive(!isActive);
+            }} 
+            role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+          <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
             <div className='navbar-end'>
               <Link className='navbar-item has-text-weight-medium' to='/'>HOME</Link>
               <div className='navbar-item has-dropdown is-hoverable'>
