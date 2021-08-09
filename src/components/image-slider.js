@@ -9,7 +9,7 @@ export default class SimpleItems extends Component {
       dots: false,
       infinite: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
       adaptiveHeight: false,
