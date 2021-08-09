@@ -16,7 +16,7 @@ export default class SimpleItems extends Component {
       adptiveWidth:true
     };
     return (
-      <div>
+      <div className="has-navbar-fixed-top">
         <Slider {...settings}>
           <div className="img-max-height">
             <StaticImage src="../assets/slide1b.jpg" alt="" placeholder="blurred"
