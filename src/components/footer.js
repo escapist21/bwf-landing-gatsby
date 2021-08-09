@@ -2,11 +2,11 @@ import React from "react"
 
 const Footer = () => {
     return(
-        <div className="container ">
-            <div className="column">
-                <p className="has-text-centered">©2021 Better World Foundation. All Rights Reserved. </p>
+        <footer className="footer">
+            <div className="content has-text-centered">
+                <p className="has-text-white">©2021 Better World Foundation. All Rights Reserved. </p>
             </div>
-        </div>
+        </footer>
     )
 }
 
