@@ -26,7 +26,7 @@ export default class MultipleItems extends Component {
           breakpoint: 600,
           settings: {
             dots:true,
-            slidesToShow: 3,
+            slidesToShow: 4,
             slidesToScroll: 1,
             infinite: true,
             autoplay: true,
@@ -36,8 +36,11 @@ export default class MultipleItems extends Component {
         {
           breakpoint: 480,
           settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 2000,
           }
         }
       ]
