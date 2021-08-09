@@ -12,8 +12,7 @@ const Header = () => {
             <a className='navbar-item' href='/'>
               <StaticImage src="../assets/BWF_logo_Logo.png" />
             </a>
-          </div>
-          <a 
+            <a 
             onClick={() => {
               setisActive(!isActive);
             }} 
@@ -22,6 +21,8 @@ const Header = () => {
             <span aria-hidden="true"></span>
             <span aria-hidden="true"></span>
           </a>
+          </div>
+          
           <div id="navbarBasicExample" className={`navbar-menu ${isActive ? "is-active" : ""}`}>
             <div className='navbar-end'>
               <Link className='navbar-item has-text-weight-medium' to='/'>HOME</Link>

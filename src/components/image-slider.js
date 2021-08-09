@@ -7,6 +7,7 @@ export default class SimpleItems extends Component {
   render() {
     const settings = {
       dots: false,
+      fade: true,
       infinite: true,
       autoplay: true,
       autoplaySpeed: 3000,
