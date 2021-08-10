@@ -1,7 +1,9 @@
 module.exports = {
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
-    title: "bwf-gatsby",
+    title: "Better World Foundation",
+    description: "Better World Foundation is a Non-profit consulting based out of Patna.",
+    image: "/src/images/icon.png",
   },
   plugins: [
     "gatsby-plugin-react-helmet",

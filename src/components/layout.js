@@ -7,6 +7,7 @@ const Layout = (props) => {
     return(
         <div>
             <Helmet>
+                <title>Better World Foundation</title>
                 <body className="has-navbar-fixed-top" />
             </Helmet>
             <Header />
