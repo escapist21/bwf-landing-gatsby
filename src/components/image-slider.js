@@ -21,15 +21,15 @@ export default class SimpleItems extends Component {
         <Slider {...settings}>
           <div className="img-max-height">
             <StaticImage src="../assets/slide1b.jpg" alt="" placeholder="blurred"
-              style={{maxHeight:550}}/>
+              style={{maxHeight:500}}/>
           </div>
           <div>
             <StaticImage src="../assets/slide2b.jpg" alt="" 
-            style={{maxHeight:550}}/>
+            style={{maxHeight:500}}/>
           </div>
           <div>
             <StaticImage src="../assets/slide3b.jpg" alt="" 
-            style={{maxHeight:550}}/>
+            style={{maxHeight:500}}/>
           </div>
         </Slider>
       </div>
