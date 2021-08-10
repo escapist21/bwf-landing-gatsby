@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    url: "https://bwf.org.in",
     title: "Better World Foundation",
     description: "Better World Foundation is a Non-profit consulting based out of Patna.",
     image: "/src/images/icon.png",
@@ -28,6 +28,16 @@ module.exports = {
         path: "./src/pages/",
       },
       __key: "pages",
+    },
+    {
+      resolve: "gatsby-plugin-manifest",
+      options: {
+        name: "Better World Foundation",
+        short_name: "BWF",
+        start_url: "/",
+        display: "standalone",
+        icon: "src/images/icon.png",
+      }
     },
   ],
 };
