@@ -4,6 +4,7 @@ module.exports = {
     title: "bwf-gatsby",
   },
   plugins: [
+    "gatsby-plugin-react-helmet",
     "gatsby-plugin-sass",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
