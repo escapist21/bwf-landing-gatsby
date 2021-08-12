@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    url: "https://bwf.org.in",
+    siteUrl: "https://bwf.org.in",
     title: "Better World Foundation",
     description: "Better World Foundation is a Non-profit consulting based out of Patna.",
     image: "/src/images/icon.png",
