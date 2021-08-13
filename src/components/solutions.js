@@ -1,11 +1,9 @@
 import React from "react"
-
+import SolutionDetails from "./solution-details";
 
 const SolutionsSection = () => {
     const [readMore, setReadMore] = React.useState(false);
-    const extraContent=<p className="subtitle is-size-6 is-family-secondary">
-    We aim to influence existing and upcoming policies to uphold, scale and sustain the empowerment of individuals from the most marginalized communities. Better World Foundation engages with policy makers and alliances to build support for the marginalized communities. Building on the work done over the past few years, the BWF focuses on developing outcome-based thematic strategies for the sectors we operate in. The organisation works on developing knowledge products to advocate on various issues affecting the marginalised communities.
-    </p>
+    const extraContent=<SolutionDetails/>
     const linkName=readMore?'Read Less':'Read More';
     return(
         <section className="hero">
