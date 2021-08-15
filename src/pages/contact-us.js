@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Layout from "../components/layout"
 import ContactBanner from "../components/contact-banner"
 import ContactForm from "../components/contact-form"
-import { faCoffee, faEnvelope, faLocationArrow, faMapMarkedAlt, faMapMarker, faMapMarkerAlt, faPhone, faPhoneAlt } from "@fortawesome/free-solid-svg-icons"
+import { faEnvelope,faMapMarkerAlt,faPhoneAlt } from "@fortawesome/free-solid-svg-icons"
 import { faAddressCard } from "@fortawesome/free-regular-svg-icons"
 
 
@@ -17,7 +17,7 @@ const ContactPage = () => {
                         <div className="column is-5">
                             <div className="section pt-0 pb-3">
                                 <p className="title has-text-weight-light has-text-link is-size-3 is-link">
-                                    Send us a message and we will surely reply
+                                    Send us a message and we will get back to you
                                 </p>
                             </div>
                             <div className="section pt-0 pb-0">

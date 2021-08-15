@@ -4,7 +4,7 @@ import React from "react"
 const ContactForm = () => {
     return(
         <div className="container">
-            <form target="_blank" action="37809683ef3811a505967ac87366366b" method="POST">
+            <form target="_blank" action="https://formsubmit.com/connect@bwf.org.in" method="POST">
                 <div className="field">
                     <label className="label">Name</label>
                     <div className="control">

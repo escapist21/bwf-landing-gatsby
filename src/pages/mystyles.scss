@@ -24,6 +24,12 @@ $footer-background-color: $blue;
     background-blend-mode: multiply;
 };
 
+.has-background-image-work {
+    background: url('../assets/our-work-cover.jpg') center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+};
+
 .table.is-borderless td{
     border: 0;
 };
