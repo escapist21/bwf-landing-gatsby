@@ -18,6 +18,20 @@ $footer-background-color: $blue;
     max-height: 500px;
 };
 
+.has-background-image {
+    background: url('../assets/contact-page-cover.jpg') center center;
+    background-size: cover;
+    background-blend-mode: multiply;
+};
+
+.table.is-borderless td{
+    border: 0;
+};
+
+.font-awesome-color{
+    color: $blue
+}
+
 @import "~bulma/bulma.sass";
 @import "~slick-carousel/slick/slick.css"; 
 @import "~slick-carousel/slick/slick-theme.css";
