@@ -41,7 +41,7 @@ const Header = () => {
                       <Link className='navbar-item is-uppercase has-text-weight-normal' to='#' >publications</Link>
                     </div>
                   </div> */}
-                  <Link className='navbar-item has-text-weight-medium' to='#'>CONTACT US</Link>
+                  <Link className='navbar-item has-text-weight-medium' to='/contact-us'>CONTACT US</Link>
                 </div>
               </div>
             </div>
