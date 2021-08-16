@@ -5,7 +5,7 @@ import Airform from "react-airform"
 const ContactForm = () => {
     return(
         <div className="container">
-            <form action="ef4a883d4e661aecf08301bf355eddba" method="POST">
+            <form action="https://formsubmit.co/connect@bwf.org.in" method="POST">
                 <div className="field">
                     <label className="label">Name</label>
                     <div className="control">
