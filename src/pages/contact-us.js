@@ -1,10 +1,10 @@
 import React from "react"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import "./mystyles.scss"
 import Layout from "../components/layout"
 import ContactBanner from "../components/contact-banner"
 import ContactForm from "../components/contact-form"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faEnvelope,faMapMarkerAlt,faPhoneAlt } from "@fortawesome/free-solid-svg-icons"
-import { faAddressCard } from "@fortawesome/free-regular-svg-icons"
 
 
 const ContactPage = () => {
