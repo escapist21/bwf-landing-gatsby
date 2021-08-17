@@ -39,5 +39,11 @@ module.exports = {
         icon: "src/images/icon.png",
       }
     },
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: "https://bwf.us5.list-manage.com/subscribe/post?u=2f05921baf4de816ef94ffd55&amp;id=02eec8b072"
+      }
+    },
   ],
 };
